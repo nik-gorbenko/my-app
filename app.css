@@ -1,0 +1,42 @@
+.comment {
+  display:flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,.1);
+}
+.comment__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.comment__user {
+  display: flex;
+  justify-content: flex-start;
+}
+.user__name {
+  margin-right: 5px;
+}
+.user__family {
+
+}
+.comment__date {
+  color:#ccc;
+  font-style: italic;
+}
+.comment__body {
+  display: flex;
+  flex-direction: row;
+}
+.comment__text {
+  margin-right: 1rem;
+}
+.comment__buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.attention {
+  margin: 1rem auto;
+  cursor: pointer;
+}
